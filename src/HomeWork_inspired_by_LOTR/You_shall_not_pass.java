@@ -11,5 +11,7 @@ public class You_shall_not_pass extends Exception {
     }
 
     public You_shall_not_pass() {
+        super("\"You shall not pass!\"  - said Gandalf to Balrog");
+
     }
 }
