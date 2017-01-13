@@ -5,7 +5,7 @@ public class Task4 {
         try {
             ThrowableDwarf dwarf = new ThrowableDwarf();
             dwarf.f();
-        } catch (You_shall_not_pass ex) {
+        } catch (Gandalf ex) {
 
 // Хотел бросить новое исключение но
 // компилятор не пропускает, пришлось сделать вложенный try-catch
