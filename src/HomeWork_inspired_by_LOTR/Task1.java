@@ -1,4 +1,4 @@
-package HomeWork;
+package HomeWork_inspired_by_LOTR;
 
 import java.io.EOFException;
 
