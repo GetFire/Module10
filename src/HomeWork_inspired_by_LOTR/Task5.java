@@ -5,7 +5,7 @@ public class Task5 {
         try {
             Sauron sauron = new Sauron();
             sauron.a();
-        }catch (You_shall_not_pass | Smeagol | Saruman e){
+        } catch (You_shall_not_pass | Smeagol | Saruman e) {
             System.err.println(e.getMessage());
         }
         System.out.println("End");
