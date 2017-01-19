@@ -6,7 +6,8 @@ public class Task5 {
             Sauron sauron = new Sauron();
             sauron.a();
         } catch (Gandalf | Smeagol | Saruman e) {
-            System.err.println(e.getMessage());
+
+            System.err.println(e.getClass().getSimpleName()+": "+e.getMessage());
         }
         System.out.println("End");
 
